@@ -44,17 +44,17 @@ int fibo(int n)
 {
     int fiboresult;
 
-    if (n == 0)
+    if (n == 1)
     {
         fiboresult = 0;
     }
 
-    if (n == 1 || n == 2)
+    if (n == 2 || n == 3)
     {
         fiboresult = 1;
     }
 
-    if (n > 2)
+    if (n > 3)
     {
         fiboresult = fibo(n - 1) + fibo(n - 2);
     }
